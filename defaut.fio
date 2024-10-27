@@ -1,0 +1,1 @@
+fio -name=defaut -runtime=60 -numjobs=1 -rwmixwrite=30 -blocksize=16k -filesize=1G -rw=randrw -direct=0
